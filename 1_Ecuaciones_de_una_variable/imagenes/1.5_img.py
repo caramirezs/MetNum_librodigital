@@ -64,7 +64,7 @@ for ax in axs.flat:
 
 # Ajusta automáticamente los espacios entre los subplots
 fig.tight_layout()
-plt.savefig('/imagenes/punto_fijo.png', dpi=400, bbox_inches='tight')
+plt.savefig('punto_fijo.png', dpi=400, bbox_inches='tight')
 
 # Muestra la figura
 plt.show()
